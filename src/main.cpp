@@ -5,7 +5,7 @@ int main( int argc, char ** argv )
 {
     if ( argc < 2 ) {
         std::cout << "Please provide file path: " << " <Graph file>" << std::endl;
-        std::cout << "example : -f /home/aliakber/Desktop/temp.txt" << std::endl;
+        std::cout << "example : -f /home/aliakber/Desktop/projects/dataset/soc-slashdot.txt" << std::endl;
         exit( 1 );
     }
 
