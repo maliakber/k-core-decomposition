@@ -9,7 +9,6 @@ int main( int argc, char ** argv )
         exit( 1 );
     }
 
-    //example : -f /home/aliakber/Desktop/temp.txt
     std::string input_filename = argv[1];
     Graph g;
     int32_t c;
@@ -35,7 +34,6 @@ int main( int argc, char ** argv )
         std::cout << "Please provide a .txt graph file" << std::endl;
         return 0;
     }
-    assert( "Graph contains vertices" && g.n > 0 );
 
     std::cout << "\033[32mComputing k-core decomposition... " << std::endl;
     kcore::find_kcore(g);
